@@ -7,5 +7,10 @@ namespace PROG7314_POE.Controllers
     [ApiController]
     public class CommandController : ControllerBase
     {
+        //POST /command → ExecuteCommand(Command command)
+        [HttpPost("ExecuteCommand")]
+        //GET /status → GetStatus()
+        [HttpGet("GetStatus")]
+
     }
 }

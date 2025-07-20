@@ -7,5 +7,9 @@ namespace PROG7314_POE.Controllers
     [ApiController]
     public class VisionController : ControllerBase
     {
+        //GET /video-feed → StreamLiveFeed()
+        [HttpGet("VideoFeed")]
+        //GET /map → GetMapData()
+        [HttpGet("GetMapData")]
     }
 }
