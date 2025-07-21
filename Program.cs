@@ -1,4 +1,6 @@
 
+using PROG7314_POE.Services;
+
 namespace PROG7314_POE
 {
     public class Program
@@ -13,6 +15,11 @@ namespace PROG7314_POE
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddSingleton<GeminiService>();
+            builder.Services.AddSingleton<NavigationService>();
+            builder.Services.AddSingleton<CameraService>();
+            builder.Services.AddSingleton<ReminderScheduler>();
+
 
             var app = builder.Build();
 
