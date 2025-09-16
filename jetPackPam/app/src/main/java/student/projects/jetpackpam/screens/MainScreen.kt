@@ -12,6 +12,7 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.ui.graphics.Color
 import androidx.navigation.NavDestination
 import androidx.navigation.NavDestination.Companion.hierarchy
 import androidx.navigation.NavGraph.Companion.findStartDestination
@@ -21,6 +22,8 @@ import androidx.navigation.compose.rememberNavController
 import androidx.wear.compose.material.ContentAlpha
 import student.projects.jetpackpam.bottomNav.BottomBarScreen
 import student.projects.jetpackpam.bottomNav.BottomNavGraph
+import student.projects.jetpackpam.ui.theme.Primary
+import student.projects.jetpackpam.ui.theme.White
 
 
 @Composable
@@ -43,7 +46,9 @@ fun BottomBar(navController: NavHostController) {
     val navBackStackEntry by navController.currentBackStackEntryAsState()
     val currentDestination = navBackStackEntry?.destination
 
-    NavigationBar  {
+    NavigationBar(
+        containerColor = White
+    )  {
         screens.forEach { screen ->
             AddItem(
                 screen = screen,
@@ -74,9 +79,9 @@ fun RowScope.AddItem(
             it.route == screen.route
         } == true,
         colors = NavigationBarItemDefaults.colors(
-            selectedIconColor = MaterialTheme.colorScheme.primary,
+            selectedIconColor = Primary,
             unselectedIconColor = LocalContentColor.current.copy(alpha = ContentAlpha.disabled),
-            selectedTextColor = MaterialTheme.colorScheme.primary,
+            selectedTextColor = Primary,
             unselectedTextColor = LocalContentColor.current.copy(alpha = ContentAlpha.disabled)
         ),
         onClick = {

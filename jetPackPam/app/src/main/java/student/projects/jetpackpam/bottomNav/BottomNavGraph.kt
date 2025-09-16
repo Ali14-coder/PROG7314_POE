@@ -19,7 +19,7 @@ fun BottomNavGraph(navController: NavHostController, paddingValues: PaddingValue
         modifier = Modifier.padding(paddingValues)
     ) {
         composable(route = BottomBarScreen.Home.route) {
-            HomeScreen()
+            HomeScreen(onMessageClick = { /* do nothing for preview */ })
         }
         composable(route = BottomBarScreen.Video.route) {
             VideoScreen()

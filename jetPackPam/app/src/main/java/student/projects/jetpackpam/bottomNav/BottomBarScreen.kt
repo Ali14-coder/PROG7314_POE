@@ -7,6 +7,7 @@ import androidx.compose.material.icons.filled.Star
 import androidx.compose.material.icons.outlined.Face
 import androidx.compose.material.icons.outlined.Home
 import androidx.compose.material.icons.outlined.Star
+import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 
 sealed class BottomBarScreen (
@@ -14,6 +15,7 @@ sealed class BottomBarScreen (
     val title: String,
     val icon: ImageVector
     ) {
+
         object Home : BottomBarScreen(
             route = "home",
             title = "Home",
