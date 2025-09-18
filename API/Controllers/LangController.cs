@@ -5,7 +5,7 @@ namespace PROG7314_POE.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AccountController : ControllerBase
+    public class LangController : ControllerBase
     {
     }
 }

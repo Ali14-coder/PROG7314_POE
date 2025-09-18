@@ -18,8 +18,6 @@ namespace PROG7314_POE
             builder.Services.AddSingleton<GeminiService>();
             builder.Services.AddSingleton<NavigationService>();
             builder.Services.AddSingleton<CameraService>();
-            builder.Services.AddSingleton<ReminderScheduler>();
-
 
             var app = builder.Build();
 
