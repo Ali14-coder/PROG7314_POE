@@ -32,12 +32,15 @@ import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import student.projects.jetpackpam.R
 import student.projects.jetpackpam.ui.theme.White
+
+
 
 
 @Composable
@@ -47,18 +50,12 @@ fun HomeScreen(onMessageClick: () -> Unit) {
         containerColor = Color.White // optional background color
     ) { paddingValues ->
 
-        Box(
-            modifier = Modifier
-                .fillMaxSize()
-                .padding(paddingValues), // respect Scaffold padding
-            contentAlignment = Alignment.BottomCenter // content aligned toward bottom
-        ) {
+
             Column(
                 modifier = Modifier
-                    .verticalScroll(rememberScrollState())
-                    .padding(16.dp),
+                    .padding(0.dp).padding(paddingValues).verticalScroll(rememberScrollState()),
                 horizontalAlignment = Alignment.CenterHorizontally,
-                verticalArrangement = Arrangement.spacedBy(25.dp)
+                verticalArrangement = Arrangement.spacedBy(50.dp)
             ) {
                 // Image
                 Image(
@@ -73,13 +70,15 @@ fun HomeScreen(onMessageClick: () -> Unit) {
                     fontSize = MaterialTheme.typography.headlineMedium.fontSize,
                     fontWeight = FontWeight.Bold,
                     color = Color.Black,
-                    textAlign = TextAlign.Center
+                    textAlign = TextAlign.Center,
+                    fontFamily = FontFamily.SansSerif
+
                 )
 
                 // Button
                 MessageButton(onClick = onMessageClick)
             }
-        }
+
     }
 }
 
