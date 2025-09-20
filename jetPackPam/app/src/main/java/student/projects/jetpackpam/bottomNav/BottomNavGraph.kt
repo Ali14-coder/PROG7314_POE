@@ -7,9 +7,9 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import student.projects.jetpackpam.screens.GamesScreen
-import student.projects.jetpackpam.screens.HomeScreen
-import student.projects.jetpackpam.screens.VideoScreen
+import student.projects.jetpackpam.screens.bottomnavscreen.GamesScreen
+import student.projects.jetpackpam.screens.bottomnavscreen.HomeScreen
+import student.projects.jetpackpam.screens.bottomnavscreen.VideoScreen
 
 @Composable
 fun BottomNavGraph(navController: NavHostController, paddingValues: PaddingValues) {

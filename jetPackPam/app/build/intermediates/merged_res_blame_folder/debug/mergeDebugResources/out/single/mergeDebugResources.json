@@ -1,74 +1,66 @@
 [
     {
-        "merged": "C:\\Users\\lab_services_student\\.gradle\\daemon\\8.13\\student.projects.jetpackpam.app-debug-56:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\lab_services_student\\.gradle\\daemon\\8.13\\student.projects.jetpackpam.app-main-58:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "student.projects.jetpackpam.app-debug-61:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "student.projects.jetpackpam.app-main-63:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\lab_services_student\\.gradle\\daemon\\8.13\\student.projects.jetpackpam.app-debug-56:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\lab_services_student\\.gradle\\daemon\\8.13\\student.projects.jetpackpam.app-main-58:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "student.projects.jetpackpam.app-debug-61:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "student.projects.jetpackpam.app-main-63:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\lab_services_student\\.gradle\\daemon\\8.13\\student.projects.jetpackpam.app-debug-56:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\lab_services_student\\.gradle\\daemon\\8.13\\student.projects.jetpackpam.app-main-58:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "student.projects.jetpackpam.app-debug-61:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "student.projects.jetpackpam.app-main-63:/mipmap-anydpi/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\lab_services_student\\.gradle\\daemon\\8.13\\student.projects.jetpackpam.app-debug-56:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\lab_services_student\\.gradle\\daemon\\8.13\\student.projects.jetpackpam.app-main-58:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "student.projects.jetpackpam.app-debug-61:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "student.projects.jetpackpam.app-main-63:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\lab_services_student\\.gradle\\daemon\\8.13\\student.projects.jetpackpam.app-debug-56:\\mipmap-anydpi_ic_launcher.xml.flat",
-        "source": "C:\\Users\\lab_services_student\\.gradle\\daemon\\8.13\\student.projects.jetpackpam.app-main-58:\\mipmap-anydpi\\ic_launcher.xml"
+        "merged": "student.projects.jetpackpam.app-debug-61:/drawable_pamicon.png.flat",
+        "source": "student.projects.jetpackpam.app-main-63:/drawable/pamicon.png"
     },
     {
-        "merged": "C:\\Users\\lab_services_student\\.gradle\\daemon\\8.13\\student.projects.jetpackpam.app-debug-56:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\lab_services_student\\.gradle\\daemon\\8.13\\student.projects.jetpackpam.app-main-58:\\xml\\data_extraction_rules.xml"
+        "merged": "student.projects.jetpackpam.app-debug-61:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "student.projects.jetpackpam.app-main-63:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\lab_services_student\\.gradle\\daemon\\8.13\\student.projects.jetpackpam.app-debug-56:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\lab_services_student\\.gradle\\daemon\\8.13\\student.projects.jetpackpam.app-main-58:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "student.projects.jetpackpam.app-debug-61:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "student.projects.jetpackpam.app-main-63:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "student.projects.jetpackpam.app-debug-56:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "student.projects.jetpackpam.app-main-58:/drawable/ic_launcher_foreground.xml"
+        "merged": "student.projects.jetpackpam.app-debug-61:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "student.projects.jetpackpam.app-main-63:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\lab_services_student\\.gradle\\daemon\\8.13\\student.projects.jetpackpam.app-debug-56:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\lab_services_student\\.gradle\\daemon\\8.13\\student.projects.jetpackpam.app-main-58:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "student.projects.jetpackpam.app-debug-61:/xml_backup_rules.xml.flat",
+        "source": "student.projects.jetpackpam.app-main-63:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\lab_services_student\\.gradle\\daemon\\8.13\\student.projects.jetpackpam.app-debug-56:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\lab_services_student\\.gradle\\daemon\\8.13\\student.projects.jetpackpam.app-main-58:\\xml\\backup_rules.xml"
+        "merged": "student.projects.jetpackpam.app-debug-61:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "student.projects.jetpackpam.app-main-63:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\lab_services_student\\.gradle\\daemon\\8.13\\student.projects.jetpackpam.app-debug-56:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\lab_services_student\\.gradle\\daemon\\8.13\\student.projects.jetpackpam.app-main-58:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "student.projects.jetpackpam.app-debug-61:/xml_data_extraction_rules.xml.flat",
+        "source": "student.projects.jetpackpam.app-main-63:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\lab_services_student\\.gradle\\daemon\\8.13\\student.projects.jetpackpam.app-debug-56:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\lab_services_student\\.gradle\\daemon\\8.13\\student.projects.jetpackpam.app-main-58:\\drawable\\ic_launcher_background.xml"
+        "merged": "student.projects.jetpackpam.app-debug-61:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "student.projects.jetpackpam.app-main-63:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\lab_services_student\\.gradle\\daemon\\8.13\\student.projects.jetpackpam.app-debug-56:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\lab_services_student\\.gradle\\daemon\\8.13\\student.projects.jetpackpam.app-main-58:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "student.projects.jetpackpam.app-debug-61:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "student.projects.jetpackpam.app-main-63:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\lab_services_student\\.gradle\\daemon\\8.13\\student.projects.jetpackpam.app-debug-56:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\lab_services_student\\.gradle\\daemon\\8.13\\student.projects.jetpackpam.app-main-58:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "student.projects.jetpackpam.app-debug-61:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "student.projects.jetpackpam.app-main-63:/mipmap-anydpi/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\lab_services_student\\.gradle\\daemon\\8.13\\student.projects.jetpackpam.app-debug-56:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\lab_services_student\\.gradle\\daemon\\8.13\\student.projects.jetpackpam.app-main-58:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "student.projects.jetpackpam.app-debug-61:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "student.projects.jetpackpam.app-main-63:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\lab_services_student\\.gradle\\daemon\\8.13\\student.projects.jetpackpam.app-debug-56:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\lab_services_student\\.gradle\\daemon\\8.13\\student.projects.jetpackpam.app-main-58:\\mipmap-mdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\lab_services_student\\.gradle\\daemon\\8.13\\student.projects.jetpackpam.app-debug-56:\\drawable_pamicon.png.flat",
-        "source": "C:\\Users\\lab_services_student\\.gradle\\daemon\\8.13\\student.projects.jetpackpam.app-main-58:\\drawable\\pamicon.png"
-    },
-    {
-        "merged": "C:\\Users\\lab_services_student\\.gradle\\daemon\\8.13\\student.projects.jetpackpam.app-debug-56:\\mipmap-anydpi_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\lab_services_student\\.gradle\\daemon\\8.13\\student.projects.jetpackpam.app-main-58:\\mipmap-anydpi\\ic_launcher_round.xml"
+        "merged": "student.projects.jetpackpam.app-debug-61:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "student.projects.jetpackpam.app-main-63:/mipmap-xxxhdpi/ic_launcher_round.webp"
     }
 ]

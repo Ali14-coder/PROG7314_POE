@@ -1,15 +1,23 @@
 student.projects.jetpackpam
 attr action
+attr activityAction
+attr activityName
 attr alpha
+attr alwaysExpand
+attr animationBackgroundColor
 attr argType
 attr buttonSize
 attr circleCrop
+attr clearTop
 attr colorScheme
 attr data
 attr dataPattern
 attr destination
 attr enterAnim
 attr exitAnim
+attr finishPrimaryWithPlaceholder
+attr finishPrimaryWithSecondary
+attr finishSecondaryWithPrimary
 attr font
 attr fontProviderAuthority
 attr fontProviderCerts
@@ -31,17 +39,30 @@ attr mimeType
 attr navGraph
 attr nestedScrollViewStyle
 attr nullable
+attr placeholderActivityName
 attr popEnterAnim
 attr popExitAnim
 attr popUpTo
 attr popUpToInclusive
 attr popUpToSaveState
+attr primaryActivityName
 attr queryPatterns
 attr restoreState
 attr route
 attr scopeUris
+attr secondaryActivityAction
+attr secondaryActivityName
 attr shortcutMatchRequired
+attr splitLayoutDirection
+attr splitMaxAspectRatioInLandscape
+attr splitMaxAspectRatioInPortrait
+attr splitMinHeightDp
+attr splitMinSmallestWidthDp
+attr splitMinWidthDp
+attr splitRatio
 attr startDestination
+attr stickyPlaceholder
+attr tag
 attr targetPackage
 attr ttcIndex
 attr uri
@@ -191,12 +212,18 @@ id action_divider
 id action_image
 id action_text
 id actions
+id adjacent
 id adjust_height
 id adjust_width
+id always
+id alwaysAllow
+id alwaysDisallow
 id androidx_compose_ui_view_composition_context
+id androidx_window_activity_scope
 id async
 id auto
 id blocking
+id bottomToTop
 id browser_actions_header_text
 id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
@@ -223,7 +250,10 @@ id italic
 id light
 id line1
 id line3
+id locale
+id ltr
 id nav_controller_view_tag
+id never
 id none
 id normal
 id notification_background
@@ -233,6 +263,7 @@ id pooling_container_listener_holder_tag
 id report_drawn
 id right_icon
 id right_side
+id rtl
 id standard
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -253,6 +284,7 @@ id text
 id text2
 id time
 id title
+id topToBottom
 id view_tree_disjoint_parent
 id view_tree_lifecycle_owner
 id view_tree_on_back_pressed_dispatcher_owner
@@ -412,7 +444,9 @@ style TextAppearance_Compat_Notification_Title
 style Theme_JetPackPam
 style Widget_Compat_NotificationActionContainer
 style Widget_Compat_NotificationActionText
+styleable ActivityFilter activityAction activityName
 styleable ActivityNavigator android_name action data dataPattern targetPackage
+styleable ActivityRule alwaysExpand tag
 styleable Capability queryPatterns shortcutMatchRequired
 styleable ColorStateListItem android_color android_alpha android_lStar alpha lStar
 styleable FontFamily fontProviderAuthority fontProviderCerts fontProviderFallbackQuery fontProviderFetchStrategy fontProviderFetchTimeout fontProviderPackage fontProviderQuery fontProviderSystemFontFamily
@@ -429,6 +463,9 @@ styleable NavHost navGraph
 styleable NavInclude graph
 styleable Navigator android_label android_id route
 styleable SignInButton buttonSize colorScheme scopeUris
+styleable SplitPairFilter primaryActivityName secondaryActivityAction secondaryActivityName
+styleable SplitPairRule animationBackgroundColor clearTop finishPrimaryWithSecondary finishSecondaryWithPrimary splitLayoutDirection splitMaxAspectRatioInLandscape splitMaxAspectRatioInPortrait splitMinHeightDp splitMinSmallestWidthDp splitMinWidthDp splitRatio tag
+styleable SplitPlaceholderRule animationBackgroundColor finishPrimaryWithPlaceholder placeholderActivityName splitLayoutDirection splitMaxAspectRatioInLandscape splitMaxAspectRatioInPortrait splitMinHeightDp splitMinSmallestWidthDp splitMinWidthDp splitRatio stickyPlaceholder tag
 xml backup_rules
 xml data_extraction_rules
 xml image_share_filepaths
